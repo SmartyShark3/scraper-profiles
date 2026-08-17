@@ -1,0 +1,18 @@
+{
+  "domain": "wuxiaworld.eu",
+  "titleSelector": "meta[property='og:title'], h5.mantine-Title-root",
+  "authorSelector": ".mantine-ss2azu",
+  "coverImageSelector": "meta[property='og:image'], .mantine-Image-image",
+  "summarySelector": "meta[property='og:description']",
+  "tagSelector": "meta[name='keywords']",
+  "chapterLinkSelector": "a[href*='/chapter/']",
+  "chapterContentSelector": ".mantine-18ybim5, .mantine-sqid3s, #chapterText",
+  "chapterDateSelector": null,
+  "ratingSelector": null,
+  "chapterUrlRegex": "https?://(?:www\\.)?wuxiaworld\\.(?:eu|com|co)/chapter/([a-zA-Z0-9_-]+)-\\d+.*",
+  "novelUrlTemplate": "https://www.wuxiaworld.eu/novel/{1}",
+  "requiresWebView": false,
+  "isCustom": false,
+  "initials": "WW",
+  "watermarkPhrases": []
+}

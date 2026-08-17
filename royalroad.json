@@ -1,0 +1,30 @@
+{
+  "domain": "royalroad.com",
+  "titleSelector": "h1",
+  "authorSelector": "h4 a[href*='/profile/']",
+  "coverImageSelector": "img.thumbnail",
+  "summarySelector": ".description",
+  "tagSelector": ".tags a",
+  "chapterLinkSelector": "table#chapters tbody tr td:first-child a",
+  "chapterContentSelector": ".chapter-inner",
+  "chapterDateSelector": "time",
+  "ratingSelector": "meta[property='books:rating:value']",
+  "chapterUrlRegex": "https?://(?:www\\.)?royalroad\\.com/fiction/(\\d+)/([^/]+)/chapter/(\\d+)(?:/[^/]+)?",
+  "novelUrlTemplate": "https://www.royalroad.com/fiction/{1}/{2}",
+  "requiresWebView": false,
+  "isCustom": false,
+  "initials": "RR",
+  "watermarkPhrases": [
+    "belongs on royal road",
+    "stolen from royal road",
+    "taken from royal road",
+    "copied from royal road",
+    "originally published on royal road",
+    "stolen content warning",
+    "find this story on amazon",
+    "report any occurrences",
+    "this story has been taken without authorization"
+  ],
+  "topAuthorNotesSelector": ".portlet.author-note-portlet .author-note, .author-note-portlet, .author-note",
+  "bottomAuthorNotesSelector": ".portlet.author-note-portlet .author-note, .author-note-portlet, .author-note"
+}

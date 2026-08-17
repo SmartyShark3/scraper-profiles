@@ -1,0 +1,20 @@
+{
+  "domain": "scribblehub.com",
+  "titleSelector": ".fic_title, .fic-title",
+  "authorSelector": ".auth_name_fic, .auth-name-fic",
+  "coverImageSelector": ".fic_image img, .fic-image img",
+  "summarySelector": ".wi_fic_desc, .wi-fiction-page-inner .description",
+  "tagSelector": "a.tag_inner, .stag, span.fic_genre, .fic_genre, a.genre",
+  "chapterLinkSelector": "li.toc-chapter a, li.toc_w a, a.toc_a",
+  "chapterContentSelector": ".chp_raw",
+  "chapterDateSelector": ".fic_date_pub",
+  "ratingSelector": "meta[property='books:rating:value']",
+  "chapterUrlRegex": "https?://(?:www\\.)?scribblehub\\.com/read/(\\d+)-([^/]+)/chapter/(\\d+)(?:/)?",
+  "novelUrlTemplate": "https://www.scribblehub.com/series/{1}/{2}",
+  "requiresWebView": false,
+  "isCustom": false,
+  "initials": "SH",
+  "watermarkPhrases": [],
+  "bottomAuthorNotesSelector": ".wi_authornotes, .author-notes",
+  "reverseChapterOrder": true
+}
