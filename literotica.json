@@ -1,0 +1,31 @@
+{
+  "domain": "literotica.com",
+  "titleSelector": "h1, meta[property='og:title']",
+  "authorSelector": ".authorName a, a.authorName, .author a, a[rel='author'], meta[name='author']",
+  "coverImageSelector": "meta[property='og:image'], .panel img, .story-image img",
+  "summarySelector": "meta[property='og:description'], .description, .story-description",
+  "tagSelector": ".tags a, .tag-list a, .categories a, meta[name='keywords']",
+  "chapterLinkSelector": ".series-stories a, .chapter-list a",
+  "chapterContentSelector": "#content, .panel, .aa_ht, .story-content",
+  "chapterDateSelector": ".date, time",
+  "chapterUrlRegex": "https?://(?:www\\.)?literotica\\.com/(?:beta/|m/)?s/([^/?#]+).*",
+  "novelUrlTemplate": "https://www.literotica.com/s/{1}",
+  "requiresWebView": false,
+  "isCustom": false,
+  "initials": "LT",
+  "supportsNewChapters": true,
+  "rateLimitMs": 3000,
+  "preseedCookies": [
+    "adult_content=1",
+    "age_verified=1",
+    "age_confirmed=1",
+    "disclaimer=1",
+    "consent=1"
+  ],
+  "noiseSelectors": [
+    ".ad",
+    ".advertisement",
+    ".panel-footer",
+    ".vipcams"
+  ]
+}
