@@ -38,5 +38,20 @@
     "a[href*='contact_webmaster']",
     "a[href*='comments.php']",
     "a[href*='sol-secure']"
-  ]
+  ],
+  "dynamicDetails": {
+    "triggerSelector": "#s-details",
+    "endpointTemplate": "https://storiesonline.net/res/responders/moreData.php",
+    "method": "POST",
+    "jsVariables": ["story_id", "ucc", "ci", "ccc", "tto"],
+    "formDataTemplate": {
+      "fn": "showDetails",
+      "a[]": "{story_id}",
+      "ucc": "{ucc}",
+      "ci": "{ci}",
+      "ccc": "{ccc}",
+      "tto": "{tto}"
+    },
+    "injectTargetSelector": "#s-details"
+  }
 }
