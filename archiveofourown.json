@@ -1,0 +1,39 @@
+{
+  "domain": "archiveofourown.org",
+  "titleSelector": "h2.title.heading, .preface .title",
+  "authorSelector": "h3.byline.heading a[rel='author'], .preface .byline a, h3.byline.heading a, a[rel='author']",
+  "coverImageSelector": null,
+  "summarySelector": ".summary.module blockquote, .summary blockquote, blockquote.userstuff.summary",
+  "tagSelector": "dd.freeform.tags a, dd.fandom.tags a, dd.character.tags a, dd.relationship.tags a, dd.warning.tags a, dd.category.tags a, dd.tags a, .tags a",
+  "chapterLinkSelector": "ol.chapter.index li a, select#selected_id option, .chapter.index a, #chapter_index select option, ul.chapters li a, li.chapter.bychapter a",
+  "chapterContentSelector": "div[role='article'] .userstuff, #chapters .userstuff, div.userstuff.module, div.userstuff",
+  "chapterDateSelector": "span.datetime, dd.published, .datetime",
+  "chapterUrlRegex": "https?://(?:www\\.)?archiveofourown\\.org/works/(\\d+)(?:/chapters/\\d+.*|/navigate.*)?",
+  "novelUrlTemplate": "https://archiveofourown.org/works/{1}",
+  "topAuthorNotesSelector": ".chapter.preface .notes.module blockquote, .preface.group .notes.module blockquote, .preface .notes blockquote, .notes.module:not(.end) blockquote",
+  "bottomAuthorNotesSelector": ".chapter.preface ~ .notes.module blockquote, div.notes.module:not(.preface .notes) blockquote, .end.notes blockquote, .notes.module.end blockquote",
+  "noiseSelectors": [
+    ".landmark",
+    ".actions",
+    ".feedback",
+    ".navigation",
+    "#feedback",
+    "#kudos",
+    "#comments",
+    ".preface.group",
+    "h3.landmark",
+    "h3.heading",
+    ".jump",
+    "#toc_prompt",
+    "#proxy-notice",
+    "#skiplinks"
+  ],
+  "requiresWebView": false,
+  "isCustom": false,
+  "initials": "AO",
+  "supportsNewChapters": true,
+  "rateLimitMs": 3000,
+  "preseedCookies": [
+    "view_adult=true"
+  ]
+}
