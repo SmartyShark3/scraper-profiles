@@ -1,0 +1,20 @@
+{
+  "domain": "novelfull.com",
+  "titleSelector": ".books h3.title, .info-title, h3.title",
+  "authorSelector": ".info a[href*='/author/'], .info a[href*='/author-']",
+  "coverImageSelector": ".book-info .book img, .info-holder .book img",
+  "summarySelector": ".desc-text, .desc",
+  "tagSelector": ".info a[href*='/genre/'], .info a[href*='/genre-']",
+  "chapterLinkSelector": "#list-chapter .row a, #list-chapter ul.list-chapter li a",
+  "chapterContentSelector": "#chapter-content",
+  "chapterDateSelector": null,
+  "ratingSelector": "meta[property='books:rating:value']",
+  "chapterUrlRegex": "https?://(?:www\\.)?novelfull\\.com/([^/]+)/chapter-(\\d+)(?:\\.html)?",
+  "novelUrlTemplate": "https://novelfull.com/{1}.html",
+  "requiresWebView": false,
+  "isCustom": false,
+  "initials": "NF",
+  "supportsNewChapters": true,
+  "watermarkPhrases": [],
+  "version": 1
+}

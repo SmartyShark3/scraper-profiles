@@ -1,0 +1,20 @@
+{
+  "domain": "createnovels.com",
+  "titleSelector": ".entry-title",
+  "authorSelector": ".entry-author a",
+  "coverImageSelector": ".entry-image img",
+  "summarySelector": ".entry-content",
+  "tagSelector": ".entry-genre a",
+  "chapterLinkSelector": ".entry-content a[href*='/chapter/']",
+  "chapterContentSelector": ".entry-content",
+  "chapterDateSelector": null,
+  "ratingSelector": null,
+  "chapterUrlRegex": "https?://(?:www\\.)?createnovels\\.com/([^/]+)/chapter-(\\d+)",
+  "novelUrlTemplate": "https://createnovels.com/{1}",
+  "requiresWebView": false,
+  "isCustom": false,
+  "initials": "CN",
+  "supportsNewChapters": true,
+  "watermarkPhrases": [],
+  "version": 1
+}

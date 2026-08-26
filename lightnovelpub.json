@@ -1,0 +1,20 @@
+{
+  "domain": "lightnovelpub.com",
+  "titleSelector": ".novel-title, h1.novel-title",
+  "authorSelector": ".author a",
+  "coverImageSelector": ".fixed-img img",
+  "summarySelector": ".summary .content",
+  "tagSelector": ".categories a",
+  "chapterLinkSelector": ".chapter-list a",
+  "chapterContentSelector": "#chapter-container",
+  "chapterDateSelector": null,
+  "ratingSelector": null,
+  "chapterUrlRegex": "https?://(?:www\\.)?lightnovelpub\\.com/novel/([^/]+)/chapter-(\\d+)",
+  "novelUrlTemplate": "https://lightnovelpub.com/novel/{1}",
+  "requiresWebView": false,
+  "isCustom": false,
+  "initials": "LNP",
+  "supportsNewChapters": true,
+  "watermarkPhrases": [],
+  "version": 1
+}

@@ -1,0 +1,20 @@
+{
+  "domain": "readlightnovel.me",
+  "titleSelector": ".novel-title h1, h1",
+  "authorSelector": ".novel-details .row a[href*='/author/']",
+  "coverImageSelector": ".novel-cover img",
+  "summarySelector": ".novel-detail-item .novel-detail-body, .novel-details",
+  "tagSelector": ".novel-details a[href*='/category/']",
+  "chapterLinkSelector": ".novel-chapters a, .chapters .chapter-list a",
+  "chapterContentSelector": ".chapter-content3, .chapter-content",
+  "chapterDateSelector": null,
+  "ratingSelector": null,
+  "chapterUrlRegex": "https?://(?:www\\.)?readlightnovel\\.me/([^/]+)/chapter-(\\d+)",
+  "novelUrlTemplate": "https://www.readlightnovel.me/{1}",
+  "requiresWebView": false,
+  "isCustom": false,
+  "initials": "RLN",
+  "supportsNewChapters": true,
+  "watermarkPhrases": [],
+  "version": 1
+}

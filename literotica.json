@@ -13,7 +13,7 @@
   "requiresWebView": false,
   "isCustom": false,
   "initials": "LT",
-  "supportsNewChapters": true,
+  "supportsNewChapters": false,
   "rateLimitMs": 3000,
   "preseedCookies": [
     "adult_content=1",

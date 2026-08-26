@@ -14,7 +14,7 @@
   "requiresWebView": false,
   "isCustom": false,
   "initials": "SO",
-  "supportsNewChapters": true,
+  "supportsNewChapters": false,
   "rateLimitMs": 4500,
   "loginUrlTemplate": "https://storiesonline.net/sol-secure/login.php?rp={path}",
   "noiseSelectors": [
@@ -43,7 +43,13 @@
     "triggerSelector": "#s-details",
     "endpointTemplate": "https://storiesonline.net/res/responders/moreData.php",
     "method": "POST",
-    "jsVariables": ["story_id", "ucc", "ci", "ccc", "tto"],
+    "jsVariables": [
+      "story_id",
+      "ucc",
+      "ci",
+      "ccc",
+      "tto"
+    ],
     "formDataTemplate": {
       "fn": "showDetails",
       "a[]": "{story_id}",

@@ -14,6 +14,7 @@
   "requiresWebView": false,
   "isCustom": false,
   "initials": "RR",
+  "supportsNewChapters": true,
   "watermarkPhrases": [
     "belongs on royal road",
     "stolen from royal road",

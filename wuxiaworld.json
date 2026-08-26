@@ -14,5 +14,6 @@
   "requiresWebView": false,
   "isCustom": false,
   "initials": "WW",
+  "supportsNewChapters": true,
   "watermarkPhrases": []
 }

@@ -1,0 +1,20 @@
+{
+  "domain": "mtlnovel.com",
+  "titleSelector": "h1.custom-title, .custom-title",
+  "authorSelector": "#author a",
+  "coverImageSelector": ".nov-img img",
+  "summarySelector": ".desc",
+  "tagSelector": "#tags a",
+  "chapterLinkSelector": ".ch-list a",
+  "chapterContentSelector": ".par",
+  "chapterDateSelector": null,
+  "ratingSelector": null,
+  "chapterUrlRegex": "https?://(?:www\\.)?mtlnovel\\.com/([^/]+)/chapter-(\\d+)",
+  "novelUrlTemplate": "https://www.mtlnovel.com/{1}/",
+  "requiresWebView": false,
+  "isCustom": false,
+  "initials": "MTL",
+  "supportsNewChapters": true,
+  "watermarkPhrases": [],
+  "version": 1
+}
