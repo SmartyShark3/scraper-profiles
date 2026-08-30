@@ -1,12 +1,12 @@
 {
   "domain": "literotica.com",
-  "titleSelector": "h1, meta[property='og:title']",
-  "authorSelector": ".authorName a, a.authorName, .author a, a[rel='author'], meta[name='author']",
+  "titleSelector": "h1, .headline, meta[property='og:title']",
+  "authorSelector": ".authorName a, a.authorName, .author a, a[rel='author'], .username a, meta[name='author']",
   "coverImageSelector": "meta[property='og:image'], .panel img, .story-image img",
   "summarySelector": "meta[property='og:description'], .description, .story-description",
   "tagSelector": ".tags a, .tag-list a, .categories a, meta[name='keywords']",
   "chapterLinkSelector": ".series-stories a, .chapter-list a",
-  "chapterContentSelector": "#content, .panel, .aa_ht, .story-content",
+  "chapterContentSelector": "[itemprop='articleBody'], .b-story-body-clr, .aa_ht, #content, .panel, .story-content, div[class*='story-body']",
   "chapterDateSelector": ".date, time",
   "chapterUrlRegex": "https?://(?:www\\.)?literotica\\.com/(?:beta/|m/)?s/([^/?#]+).*",
   "novelUrlTemplate": "https://www.literotica.com/s/{1}",
@@ -26,6 +26,9 @@
     ".ad",
     ".advertisement",
     ".panel-footer",
-    ".vipcams"
+    ".vipcams",
+    ".b-story-actions",
+    ".b-story-details",
+    ".b-story-rate"
   ]
 }
