@@ -1,13 +1,14 @@
 {
   "domain": "literotica.com",
-  "titleSelector": "h1, .headline, meta[property='og:title']",
-  "authorSelector": ".authorName a, a.authorName, .author a, a[rel='author'], .username a, meta[name='author']",
-  "coverImageSelector": "meta[property='og:image'], .panel img, .story-image img",
-  "summarySelector": "meta[property='og:description'], .description, .story-description",
-  "tagSelector": ".tags a, .tag-list a, .categories a, meta[name='keywords']",
-  "chapterLinkSelector": ".series-stories a, .chapter-list a",
-  "chapterContentSelector": "[itemprop='articleBody'], .b-story-body-clr, .aa_ht, #content, .panel, .story-content, div[class*='story-body']",
-  "chapterDateSelector": ".date, time",
+  "titleSelector": "h1 a, h1, .headline",
+  "authorSelector": ".authorName a, a.authorName, .author a, a[rel='author'], .username a, a[href*='/authors/'], meta[name='author']",
+  "coverImageSelector": "meta[property='og:image'], .story-image img",
+  "summarySelector": "meta[property='og:description'], .description, .story-description, [class*='_widget__info_']",
+  "tagSelector": ".tags a, .tag-list a, .categories a, meta[name='keywords'], [class*='_tag_item_'], [class*='_tags_'] a",
+  "chapterLinkSelector": "nav[class*='_pages'] a, a[class*='_pages__link'], nav[class*='_pagination'] a[class*='_pagination__item'], nav[aria-label*='agination' i] a[href*='page='], .panel[class*='_pagination'] a, .b-pager-pages a, .b-pager a, .page-select a, a.b-pager-page, .page-numbers a, .series-stories a, .chapter-list a, .b-ser-r a, a[class*='_series__link'], .stories-list a, .panel-content a[href*='/s/']",
+  "chapterContentSelector": "[itemprop='articleBody'], div[class*='article__content'], div[class*='story-body'], .b-story-body-clr, .aa_ht, #content, .story-content",
+  "chapterDateSelector": ".date, time, [class*='_files__date_']",
+  "ratingSelector": "meta[property='ratingValue'], span[property='ratingValue'], [data-hk*='Rating'] [property='ratingValue']",
   "chapterUrlRegex": "https?://(?:www\\.)?literotica\\.com/(?:beta/|m/)?s/([^/?#]+).*",
   "novelUrlTemplate": "https://www.literotica.com/s/{1}",
   "requiresWebView": false,
@@ -29,6 +30,16 @@
     ".vipcams",
     ".b-story-actions",
     ".b-story-details",
-    ".b-story-rate"
-  ]
+    ".b-story-rate",
+    ".sidebar",
+    "[class*='_widget_']",
+    "[class*='_widget__tab_']",
+    ".print-hidden",
+    "nav[class*='_pagination']",
+    "section[class*='_panel_']",
+    "[class*='_report_block_']",
+    "[class*='_author__info']",
+    "[class*='_author__stats']"
+  ],
+  "version": 3
 }
