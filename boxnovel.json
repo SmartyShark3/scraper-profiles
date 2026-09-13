@@ -12,7 +12,6 @@
   "chapterUrlRegex": "https?://(?:www\\.)?boxnovel\\.com/novel/([^/]+)/chapter-(\\d+)(?:/)?",
   "novelUrlTemplate": "https://boxnovel.com/novel/{1}/",
   "requiresWebView": false,
-  "isCustom": false,
   "initials": "BN",
   "supportsNewChapters": true,
   "watermarkPhrases": [],

@@ -12,7 +12,6 @@
   "chapterUrlRegex": "https?://(?:www\\.)?wuxiaworld\\.(?:eu|com|co)/chapter/([a-zA-Z0-9_-]+)-\\d+.*",
   "novelUrlTemplate": "https://www.wuxiaworld.eu/novel/{1}",
   "requiresWebView": false,
-  "isCustom": false,
   "initials": "WW",
   "supportsNewChapters": true,
   "watermarkPhrases": []

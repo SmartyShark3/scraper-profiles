@@ -12,7 +12,6 @@
   "chapterUrlRegex": "https?://(?:www\\.)?createnovels\\.com/([^/]+)/chapter-(\\d+)",
   "novelUrlTemplate": "https://createnovels.com/{1}",
   "requiresWebView": false,
-  "isCustom": false,
   "initials": "CN",
   "supportsNewChapters": true,
   "watermarkPhrases": [],

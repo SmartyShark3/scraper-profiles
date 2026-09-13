@@ -12,7 +12,6 @@
   "chapterUrlRegex": "https?://(?:www\\.)?readlightnovel\\.me/([^/]+)/chapter-(\\d+)",
   "novelUrlTemplate": "https://www.readlightnovel.me/{1}",
   "requiresWebView": false,
-  "isCustom": false,
   "initials": "RLN",
   "supportsNewChapters": true,
   "watermarkPhrases": [],

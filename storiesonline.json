@@ -12,7 +12,6 @@
   "chapterUrlRegex": "https?://(?:www\\.)?storiesonline\\.net/n/(\\d+)/([^/]+)/(\\d+)",
   "novelUrlTemplate": "https://storiesonline.net/n/{1}/{2}",
   "requiresWebView": false,
-  "isCustom": false,
   "initials": "SO",
   "supportsNewChapters": false,
   "rateLimitMs": 4500,

@@ -12,7 +12,6 @@
   "chapterUrlRegex": "https?://(?:www\\.)?lightnovelpub\\.com/novel/([^/]+)/chapter-(\\d+)",
   "novelUrlTemplate": "https://lightnovelpub.com/novel/{1}",
   "requiresWebView": false,
-  "isCustom": false,
   "initials": "LNP",
   "supportsNewChapters": true,
   "watermarkPhrases": [],

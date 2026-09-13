@@ -29,7 +29,6 @@
     "#skiplinks"
   ],
   "requiresWebView": false,
-  "isCustom": false,
   "initials": "AO",
   "supportsNewChapters": true,
   "rateLimitMs": 3000,

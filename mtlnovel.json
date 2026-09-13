@@ -12,7 +12,6 @@
   "chapterUrlRegex": "https?://(?:www\\.)?mtlnovel\\.com/([^/]+)/chapter-(\\d+)",
   "novelUrlTemplate": "https://www.mtlnovel.com/{1}/",
   "requiresWebView": false,
-  "isCustom": false,
   "initials": "MTL",
   "supportsNewChapters": true,
   "watermarkPhrases": [],

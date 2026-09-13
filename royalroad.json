@@ -12,7 +12,6 @@
   "chapterUrlRegex": "https?://(?:www\\.)?royalroad\\.com/fiction/(\\d+)/([^/]+)/chapter/(\\d+)(?:/[^/]+)?",
   "novelUrlTemplate": "https://www.royalroad.com/fiction/{1}/{2}",
   "requiresWebView": false,
-  "isCustom": false,
   "initials": "RR",
   "supportsNewChapters": true,
   "watermarkPhrases": [

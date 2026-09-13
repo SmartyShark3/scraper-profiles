@@ -12,7 +12,6 @@
   "chapterUrlRegex": "https?://(?:www\\.)?literotica\\.com/(?:beta/|m/)?s/([^/?#]+).*",
   "novelUrlTemplate": "https://www.literotica.com/s/{1}",
   "requiresWebView": false,
-  "isCustom": false,
   "initials": "LT",
   "supportsNewChapters": false,
   "rateLimitMs": 3000,

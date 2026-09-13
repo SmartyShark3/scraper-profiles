@@ -12,7 +12,6 @@
   "chapterUrlRegex": "https?://(?:www\\.)?scribblehub\\.com/read/(\\d+)-([^/]+)/chapter/(\\d+)(?:/)?",
   "novelUrlTemplate": "https://www.scribblehub.com/series/{1}/{2}",
   "requiresWebView": false,
-  "isCustom": false,
   "initials": "SH",
   "supportsNewChapters": true,
   "watermarkPhrases": [],
