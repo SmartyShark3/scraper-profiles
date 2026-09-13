@@ -35,5 +35,6 @@
   "rateLimitMs": 3000,
   "preseedCookies": [
     "view_adult=true"
-  ]
+  ],
+  "treatFirstChapterAsLandingPage": true
 }
