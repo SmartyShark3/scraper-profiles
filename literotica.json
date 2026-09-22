@@ -40,5 +40,10 @@
     "[class*='_author__info']",
     "[class*='_author__stats']"
   ],
-  "version": 3
+  "loginUrlTemplate": "https://www.literotica.com/login",
+  "loginSuccessCookies": [
+    "lit_session",
+    "user_id"
+  ],
+  "version": 4
 }

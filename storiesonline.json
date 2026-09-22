@@ -16,6 +16,11 @@
   "supportsNewChapters": false,
   "rateLimitMs": 4500,
   "loginUrlTemplate": "https://storiesonline.net/sol-secure/login.php?rp={path}",
+  "loginSuccessCookies": [
+    "ccc=+ci=",
+    "ucc=+ci="
+  ],
+  "version": 2,
   "noiseSelectors": [
     "#vote-form",
     ".vform",

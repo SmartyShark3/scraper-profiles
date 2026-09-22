@@ -16,5 +16,11 @@
   "supportsNewChapters": true,
   "watermarkPhrases": [],
   "bottomAuthorNotesSelector": ".wi_authornotes, .author-notes",
-  "reverseChapterOrder": true
+  "reverseChapterOrder": true,
+  "loginUrlTemplate": "https://www.scribblehub.com/login/",
+  "loginSuccessCookies": [
+    "logged_in",
+    "wordpress_logged_in_"
+  ],
+  "version": 2
 }

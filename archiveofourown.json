@@ -36,5 +36,10 @@
   "preseedCookies": [
     "view_adult=true"
   ],
-  "treatFirstChapterAsLandingPage": true
+  "treatFirstChapterAsLandingPage": true,
+  "loginUrlTemplate": "https://archiveofourown.org/users/login",
+  "loginSuccessCookies": [
+    "user_credentials=+!user_credentials=0"
+  ],
+  "version": 2
 }

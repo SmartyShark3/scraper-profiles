@@ -145,7 +145,8 @@ Each JSON file defines CSS selectors, scraping rules, and network behavior for a
 | Field | Type | Default | Description |
 |-------|------|:-------:|-------------|
 | `rateLimitMs` | `number` | `null` | Minimum delay in milliseconds between requests to this domain. If `null`, uses the global default of `1500` ms. Sites with strict firewalls (e.g. StoriesOnline) should set `3000` to `4500`. |
-| `loginUrlTemplate` | `string` | `null` | URL template to redirect the user to when login/paywall detection triggers. Supports `{url}` (full target URL) and `{path}` (URL path) placeholders. |
+| `loginUrlTemplate` | `string` | `null` | URL template to redirect the user to when login/paywall detection triggers. Supports `{url}` / `{raw_url}` (raw target URL), `{encoded_url}` (URL-encoded target URL), `{path}` (URL path), and `{encoded_path}` (URL-encoded path) placeholders. |
+| `loginSuccessCookies` | `string[]` | `[]` | List of cookie substring requirements indicating successful login/session. Each list element represents an OR condition. Within an element, multiple cookie keys can be combined with `+` for AND conditions (e.g. `"ccc=+ci="`), and prefixed with `!` for NOT conditions (e.g. `"!user_credentials=0"`). |
 | `preseedCookies` | `string[]` | `[]` | Cookies pre-loaded into the Android `CookieManager` before making requests (e.g. `["view_adult=true"]` for AO3 or consent cookies for Literotica). |
 | `requiresWebView` | `boolean` | `false` | When `true`, delegates web requests through Android's WebView rather than OkHttp. |
 

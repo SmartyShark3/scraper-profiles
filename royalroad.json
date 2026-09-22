@@ -26,5 +26,11 @@
     "this story has been taken without authorization"
   ],
   "topAuthorNotesSelector": ".portlet.author-note-portlet .author-note, .author-note-portlet, .author-note",
-  "bottomAuthorNotesSelector": ".portlet.author-note-portlet .author-note, .author-note-portlet, .author-note"
+  "bottomAuthorNotesSelector": ".portlet.author-note-portlet .author-note, .author-note-portlet, .author-note",
+  "loginUrlTemplate": "https://www.royalroad.com/account/login?returnUrl={encoded_url}",
+  "loginSuccessCookies": [
+    ".AspNetCore.Identity.Application",
+    ".AspNetCore.Cookies"
+  ],
+  "version": 2
 }
