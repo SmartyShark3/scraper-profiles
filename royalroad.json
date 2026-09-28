@@ -30,7 +30,10 @@
   "loginUrlTemplate": "https://www.royalroad.com/account/login?returnUrl={encoded_url}",
   "loginSuccessCookies": [
     ".AspNetCore.Identity.Application",
-    ".AspNetCore.Cookies"
+    ".AspNetCore.Cookies",
+    "_Identity",
+    "RoyalRoad",
+    "remember_me"
   ],
   "version": 2
 }
