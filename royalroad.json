@@ -14,6 +14,7 @@
   "requiresWebView": false,
   "initials": "RR",
   "supportsNewChapters": true,
+  "tocPageListSelector": "none",
   "watermarkPhrases": [
     "belongs on royal road",
     "stolen from royal road",
@@ -35,5 +36,5 @@
     "RoyalRoad",
     "remember_me"
   ],
-  "version": 2
+  "version": 3
 }
